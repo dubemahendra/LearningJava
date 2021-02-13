@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args){
         int studentAge=42;
-        double studentGpa=3.45;
+        double studentGpa=5;
 
-        String  studentFirstName="Mahendra";
-        String  studentSecondtName="Dube";
-        char studentFirstInitial=studentFirstName.charAt(0);
-        char studentLastInitial=studentSecondtName.charAt(0);
+        String  studentFirstName="Jai";
+        String  studentSecondtName="GuruDev";
+        char studentFirstInitial=studentFirstName.charAt(2);
+        char studentLastInitial=studentSecondtName.charAt(4);
 
         boolean hasPerfectAttendance=true;
 
@@ -19,8 +19,11 @@ public class Main {
 
         System.out.println(studentFirstInitial);
         System.out.println(studentLastInitial);
+        System.out.println(studentFirstName+ " " +studentSecondtName+ " GPA is " + studentGpa );
 
     }
 }
+
+
 
 
