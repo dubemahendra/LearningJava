@@ -20,7 +20,6 @@ public class Main {
         System.out.println(studentFirstInitial);
         System.out.println(studentLastInitial);
 
-
     }
 }
 
